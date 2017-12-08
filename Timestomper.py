@@ -8,16 +8,6 @@ import datetime, dpkt, time, subprocess
 # using tcpreplay w/ Kibana                                     #
 #################################################################
 
-
-#################################################################
-#   TODO:                                                       #
-#   Write Timestamps to new pcap file                           #
-#   Implement drag and drop file choosing in terminal           #
-#   Implement One command terminal usage                        #
-#   Implement Classes                                           #
-#################################################################
-
-
 originalTimestampList = []        # Original Timestamp
 
 fileName = raw_input('Input file: ')
@@ -53,7 +43,7 @@ def quickMaths():
 
 def writetofile():
 
-    subprocess.check_output(['editcap', '-t', str(secondsToAdd), fileName, 'updatedPcap.pcap'])
+    subprocess.check_output(['editcap', '-t', str(secondsToAdd), fileName, 'updated.pcap'])
 
 
 originalTimestamp()
