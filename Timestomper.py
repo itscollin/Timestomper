@@ -45,5 +45,4 @@ def writetofile():
 
     subprocess.check_output(['editcap', '-t', str(secondsToAdd), fileName, 'updated.pcap'])
 
-
 originalTimestamp()
