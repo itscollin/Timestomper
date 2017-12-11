@@ -18,7 +18,6 @@ capture = dpkt.pcap.Reader(fileReader)
 
 no = datetime.datetime.now()      #Date time now.
 now = time.mktime(no.timetuple()) #Sets date time to unix time
-print(now)
 
 #Initial import of timestamps.
 def originalTimestamp():
