@@ -12,6 +12,7 @@ TimeStomper requires a few python libraries:
 * dpkt
 * time
 * subprocess
+* Wireshark is also needed for the 'editcap' command
 
 A requirements.txt is included for use with pip, or they can be installed individually.
 
