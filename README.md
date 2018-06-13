@@ -29,8 +29,3 @@ The script will prompt you for an input PCAP file. A few notes:
 
 * The file will automatically be named "updated.pcap" and put in the current directory.
 
-Future Versions
----
-In future versions:
-+ Implement feeding input file in initial script call.
-+ Creating a menu for multiple uses in the same instance.
