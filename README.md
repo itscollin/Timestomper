@@ -1,4 +1,4 @@
-TimeStomper v.1.0
+TimeStomper v.1.2
 ===========
 ---
 Description
@@ -12,7 +12,7 @@ TimeStomper requires a few python libraries:
 * dpkt
 * time
 * subprocess
-* Wireshark is also needed for the 'editcap' command
+* argparse
 
 A requirements.txt is included for use with pip, or they can be installed individually.
 
@@ -29,3 +29,4 @@ The script will prompt you for an input PCAP file. A few notes:
 
 * The file will automatically be named "updated.pcap" and put in the current directory.
 
+* With cloned repo, editcap is provided for convenience and will be found via the script.
