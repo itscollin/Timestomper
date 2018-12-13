@@ -58,4 +58,5 @@ def writetofile():
     elif args.windows == True:
         subprocess.check_output(['Windows_binary\\editcap.exe', '-t', str(secondsToAdd), fileName, 'updated.pcap'])
 
-originalTimestamp()
+if __name__ == '__main__':
+    originalTimestamp()
